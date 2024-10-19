@@ -7,7 +7,7 @@ contract Election {
     uint256 voterCount;
     bool start;
     bool end;
-
+    
     constructor() public {
         // Initilizing default values
         admin = msg.sender;
